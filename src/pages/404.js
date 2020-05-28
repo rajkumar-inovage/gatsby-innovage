@@ -18,9 +18,9 @@ const FourZeroFour = () => (
                                     <span className="text-medium-gray width-60 d-block mx-auto text-large md-width-100">The page you were looking for could not be found.</span>
                                     <form action="search-result.html" method="post" className="position-relative">
                                         <div className="input-group-404 input-group margin-50px-tb sm-margin-20px-tb">
-                                            <input name="text" id="text" data-email="required" type="text" placeholder="Enter your keywords..." className="extra-big-input border-none form-control" />
+                                            <input name="text" id="text" type="text" aria-label="Enter your keywords..." placeholder="Enter your keywords..." className="extra-big-input border-none form-control" />
                                             <div className="input-group-append">
-                                                <button type="submit" className="btn btn-large bg-white text-medium-gray"><i className="ti-search icon-small m-0 position-raltive top-2"></i></button>
+                                                <button type="submit" aria-label="Submit" className="btn btn-large bg-white text-medium-gray"><i className="ti-search icon-small m-0 position-raltive top-2"></i></button>
                                             </div>
                                         </div>
                                     </form>

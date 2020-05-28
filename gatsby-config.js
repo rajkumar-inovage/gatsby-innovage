@@ -45,27 +45,7 @@ module.exports = {
         },
         // refetch interval in seconds
         // refetchInterval: 60,
-      },
-    },
-    // {
-    //   resolve: "gatsby-source-wordpress",
-    //   options: {
-    //     /*
-    //      * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
-    //      * Example : 'demo.wp-api.org' or 'www.example-site.com'
-    //      */
-    //     excludedRoutes: ["**/settings", "**/wp/v2/users/me", "**/wp/v2/themes"],
-    //     baseUrl: "innovagesoftwares.com/innovage_gatsby",
-    //     protocol: "https",
-    //     hostingWPCOM: false,
-    //     useACF: true,
-    //     verboseOutput: false,
-    //     acfOptionPageIds: [],
-    //   },
-    // },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+      }
+    }
+  ]
 }

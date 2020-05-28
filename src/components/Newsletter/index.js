@@ -26,7 +26,7 @@ const Newsletter = props => {
                 <input
                   name="email"
                   id="email"
-                  data-email="required"
+                  aria-label="* Email Address"
                   type="text"
                   placeholder="* Email Address"
                   className="extra-big-input border-0 form-control"

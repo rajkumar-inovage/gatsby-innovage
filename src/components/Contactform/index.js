@@ -135,6 +135,7 @@ const Contactform = props => {
                     type="text"
                     name="fname"
                     id="fname"
+                    aria-label="Full Name*"
                     placeholder="Full Name*"
                     className="w-100 mb-3 border-radius-4 bg-white medium-input"
                   />
@@ -142,6 +143,7 @@ const Contactform = props => {
                     type="text"
                     name="email"
                     id="email"
+                    aria-label="E-mail*"
                     placeholder="E-mail*"
                     className="w-100 mb-3 border-radius-4 bg-white medium-input"
                   />
@@ -149,12 +151,14 @@ const Contactform = props => {
                     type="text"
                     name="subject"
                     id="subject"
+                    aria-label="Subject"
                     placeholder="Subject"
                     className="w-100 mb-3 border-radius-4 bg-white medium-input"
                   />
                   <textarea
                     name="comment"
                     id="comment"
+                    aria-label="Your Message"
                     placeholder="Your Message"
                     rows="5"
                     className="w-100 mb-3 border-radius-4 bg-white medium-textarea"
